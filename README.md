@@ -1,5 +1,10 @@
 # mirrorlist-injector.py #
 
+__このスクリプトで実現しようとしていたことは，*.repoを下のように設定すると実現できるようです．．． (2013-01-03)__
+
+    baseurl=http://unofficial.example.jp/.../
+    mirrorlist=https://mirrors.fedoraproject.org/metalink?...
+
 Yum(Yellowdog Updater Modified)において，公式ミラーリストに含まれていないミラーサーバを公式ミラーと同様に扱えるようにするものです．
 
 ## ユースケース ##
